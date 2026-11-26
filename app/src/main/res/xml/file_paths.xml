@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Videos guardados en el almacenamiento externo propio de la app (Movies/BackgroundVideo) -->
+    <external-path
+        name="external_videos"
+        path="Movies/BackgroundVideo/" />
+    <!-- Fallback en almacenamiento interno si no hay almacenamiento externo -->
+    <files-path
+        name="internal_videos"
+        path="videos/" />
+</paths>

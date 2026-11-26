@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Icono PocketRec: un bolsillo (bolsillo trasero del pantalón) con la lengüeta
+  y un punto de grabación rojo. El viewport de 108x108 con el contenido centrado
+  en la zona segura de 72x72 que exige el icono adaptativo.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Cuerpo del bolsillo -->
+    <path
+        android:fillColor="#FFF2F0FF"
+        android:pathData="M34,36 h40 a4,4 0 0 1 4,4 v26 a10,10 0 0 1 -10,10 h-4 a10,10 0 0 1 -10,-10 v-3 h-4 v3 a10,10 0 0 1 -10,10 h-4 a10,10 0 0 1 -10,-10 V40 a4,4 0 0 1 4,-4 z" />
+
+    <!-- Sombra interna del bolsillo -->
+    <path
+        android:fillColor="#FFD8D2F5"
+        android:pathData="M38,64 h32 v2 a10,10 0 0 1 -10,10 h-12 a10,10 0 0 1 -10,-10 z" />
+
+    <!-- Costura superior -->
+    <path
+        android:strokeColor="#FF7A63D8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M38,42 h32" />
+
+    <!-- Punto de grabación -->
+    <path
+        android:fillColor="#FFFF3B4E"
+        android:pathData="M54,53 m-9,0 a9,9 0 1 0 18,0 a9,9 0 1 0 -18,0" />
+
+    <!-- Brillo del punto de grabación -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M51,49 m-3,0 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0" />
+</vector>

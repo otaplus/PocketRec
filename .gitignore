@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Configuración local (rutas del SDK) — nunca debe subirse
+local.properties
+
+# Claves de firma
+*.jks
+*.keystore
+keystore.properties
+
+# Logs y temporales
+*.log
+*.hprof
+.DS_Store
+Thumbs.db
+
+# APKs generados por el build: se ignoran, pero el de dist/ SÍ se versiona
+*.apk
+!dist/*.apk
